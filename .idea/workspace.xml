@@ -4,50 +4,104 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1257b669-a7cd-4f06-9e91-0f20c01f55f9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cieloscopio.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="1257b669-a7cd-4f06-9e91-0f20c01f55f9" name="Changes" comment="Creando el repositorio">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/google_code_gson.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/controller/ApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/Hour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/CloudsData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/CoordinatesData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/MainData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/SystemData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/Weather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/WeatherOpenWeather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/WindData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/geocoding/Geo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/geocoding/GeoOpenWeather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/geocoding/LocalNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/view/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cieloscopio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cieloscopio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Record" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2i74wvSJmF5OJVEnSPGMCLhIB4F" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/swifty/Documentos/AluraCursos/Java/Cursos/2047-screenmatch4-Aula4-Fin&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="cieloscopio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="cieloscopio" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17890.1" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17890.1" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
       </set>
     </attachedChunks>
   </component>
@@ -59,11 +113,45 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1718828527093</updated>
-      <workItem from="1718828528158" duration="1274000" />
+      <workItem from="1718828528158" duration="2667000" />
+      <workItem from="1719417997597" duration="5027000" />
+      <workItem from="1719581056032" duration="6797000" />
+      <workItem from="1719605510200" duration="3174000" />
+      <workItem from="1719675979099" duration="1006000" />
+      <workItem from="1719770389153" duration="2736000" />
+      <workItem from="1719866658383" duration="151000" />
+      <workItem from="1719866827940" duration="951000" />
+      <workItem from="1719867782961" duration="4039000" />
+      <workItem from="1720387513175" duration="1537000" />
+      <workItem from="1720443870370" duration="2761000" />
     </task>
+    <task id="LOCAL-00001" summary="Creando el repositorio">
+      <option name="closed" value="true" />
+      <created>1718837552588</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718837552588</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Creando el repositorio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creando el repositorio" />
   </component>
 </project>
