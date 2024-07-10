@@ -1,6 +1,7 @@
 package com.alura.cieloscopio.view;
 
 import com.alura.cieloscopio.controller.ApiController;
+import com.alura.cieloscopio.model.currentweather.WeatherOpenWeather;
 import com.alura.cieloscopio.model.geocoding.GeoOpenWeather;
 
 import java.io.IOException;
@@ -19,8 +20,7 @@ public class Menu {
                 3. Salir
                 """;
         List<String> ciudades = new ArrayList<>();
-        ApiController controller = new ApiController();
-        GeoOpenWeather geoOpenWeather;
+        DataWeather dataWeather = new DataWeather();
 
         do {
             System.out.println(menuText);
@@ -30,9 +30,7 @@ public class Menu {
                     System.out.println("Digite la ciudad:");
                     String ciudad = sc.next();
                     ciudades.add(ciudad);
-
-                    geoOpenWeather= controller.conectarApiGeo(ciudad);
-                    System.out.println(controller.conectarApiWeather(geoOpenWeather.lon(), geoOpenWeather.lat()));
+                    System.out.println(dataWeather.showData(ciudad));
                     break;
                 case 2:
                     System.out.println("Seleccione una ciudad del historial:");
@@ -40,8 +38,9 @@ public class Menu {
                         System.out.println((i+1)+". "+ciudades.get(i));
                     }
                     int eleccion = sc.nextInt();
-                    geoOpenWeather= controller.conectarApiGeo(ciudades.get(eleccion-1));
-                    System.out.println(controller.conectarApiWeather(geoOpenWeather.lon(), geoOpenWeather.lat()));
+
+                    System.out.println(dataWeather.showData(ciudades.get(eleccion-1)));
+
                     break;
                 case 3:
                     System.out.println("Gracias por usar la aplicación");
@@ -49,7 +48,7 @@ public class Menu {
                 default:
                     System.out.println("Seleccione una opción valida");
             }
-        }while(response != 0);
+        }while(response != 3);
     }
 
 }

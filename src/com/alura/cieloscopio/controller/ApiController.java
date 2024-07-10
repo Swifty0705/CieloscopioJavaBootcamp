@@ -10,7 +10,6 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.util.Scanner;
 
 public class ApiController {
     String keyID = "2e426faad012ae9e555def6ed9259a9b";
@@ -29,13 +28,14 @@ public class ApiController {
     }
 
     public WeatherOpenWeather conectarApiWeather(double lon, double lat) throws IOException, InterruptedException {
-        link = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=" + keyID;
+        link = "https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&appid=" + keyID+"&units=metric&lang=es";
 
         Gson gson = new GsonBuilder()
                 .setPrettyPrinting()
                 .create();
 
         WeatherOpenWeather myWeather = gson.fromJson(Conection(link), WeatherOpenWeather.class);
+        
         return myWeather;
     }
 

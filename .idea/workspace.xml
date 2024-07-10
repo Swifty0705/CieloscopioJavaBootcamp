@@ -4,28 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1257b669-a7cd-4f06-9e91-0f20c01f55f9" name="Changes" comment="Creando el repositorio">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/google_code_gson.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/controller/ApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/Hour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/CloudsData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/CoordinatesData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/MainData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/SystemData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/Weather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/WeatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/WeatherOpenWeather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/WindData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/geocoding/Geo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/geocoding/GeoOpenWeather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/geocoding/LocalNames.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/view/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+    <list default="true" id="1257b669-a7cd-4f06-9e91-0f20c01f55f9" name="Changes" comment="Programa en funcionamiento">
+      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/view/DataWeather.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cieloscopio.iml" beforeDir="false" afterPath="$PROJECT_DIR$/cieloscopio.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/cieloscopio/controller/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/controller/ApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/WeatherOpenWeather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/WeatherOpenWeather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/cieloscopio/view/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/view/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Record" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -123,7 +107,10 @@
       <workItem from="1719866827940" duration="951000" />
       <workItem from="1719867782961" duration="4039000" />
       <workItem from="1720387513175" duration="1537000" />
-      <workItem from="1720443870370" duration="2761000" />
+      <workItem from="1720443870370" duration="4139000" />
+      <workItem from="1720453416333" duration="2442000" />
+      <workItem from="1720628420598" duration="983000" />
+      <workItem from="1720635815283" duration="1820000" />
     </task>
     <task id="LOCAL-00001" summary="Creando el repositorio">
       <option name="closed" value="true" />
@@ -133,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718837552588</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Programa en funcionamiento">
+      <option name="closed" value="true" />
+      <created>1720446729073</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720446729073</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +147,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creando el repositorio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creando el repositorio" />
+    <MESSAGE value="Programa en funcionamiento" />
+    <option name="LAST_COMMIT_MESSAGE" value="Programa en funcionamiento" />
   </component>
 </project>
