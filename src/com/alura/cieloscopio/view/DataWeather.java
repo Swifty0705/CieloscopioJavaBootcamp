@@ -1,6 +1,7 @@
 package com.alura.cieloscopio.view;
 
 import com.alura.cieloscopio.controller.ApiController;
+import com.alura.cieloscopio.model.currentweather.WeatherData;
 import com.alura.cieloscopio.model.currentweather.WeatherOpenWeather;
 import com.alura.cieloscopio.model.geocoding.GeoOpenWeather;
 
@@ -18,6 +19,9 @@ public class DataWeather {
         Double currentTemp;
         Double minTemp;
         Double maxTemp;
+        WeatherData weatherData[];
+        String weather;
+        String description;
         int humidity;
 
         Date fechaActual = new Date();
@@ -36,8 +40,13 @@ public class DataWeather {
         maxTemp = weatherOpenWeather.main().temp_max();
         humidity = weatherOpenWeather.main().humidity();
 
+        weatherData = weatherOpenWeather.weather();
+        weather = weatherData[0].main();
+        description = weatherData[0].description();
+
         String data = "\n\nDatos de la ciudad\nCiudad: " + ciudad + "\nFecha: " + fecha + "\nHora: " + hora +
-                "\n\nDatos Meteorologicos\nTemperatura actual: " + currentTemp + " °C\nTemperatura minima: " + minTemp + " °C\nTemperatura maxima: " + maxTemp + " °C\nHumedad: " + humidity +
+                "\n\nDatos Meteorologicos\nTemperatura actual: " + currentTemp + " °C\nTemperatura minima: " + minTemp + " °C\nTemperatura maxima: " + maxTemp +
+                " °C\nHumedad: " + humidity + "\nCondición climatica: " + weather + "\nDescripción: " + description+
                 "\n\n";
         return data;
 

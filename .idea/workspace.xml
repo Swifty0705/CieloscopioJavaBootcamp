@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1257b669-a7cd-4f06-9e91-0f20c01f55f9" name="Changes" comment="Programa en funcionamiento">
+    <list default="true" id="1257b669-a7cd-4f06-9e91-0f20c01f55f9" name="Changes" comment="Try catch Añadido">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/alura/cieloscopio/controller/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/controller/ApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/WeatherData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/WeatherData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/WeatherOpenWeather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/WeatherOpenWeather.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/alura/cieloscopio/view/DataWeather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/view/DataWeather.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/alura/cieloscopio/view/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/view/Menu.java" afterDir="false" />
     </list>
@@ -110,7 +112,8 @@
       <workItem from="1720453416333" duration="2442000" />
       <workItem from="1720628420598" duration="983000" />
       <workItem from="1720635815283" duration="1820000" />
-      <workItem from="1720833981211" duration="4648000" />
+      <workItem from="1720833981211" duration="4739000" />
+      <workItem from="1720902249095" duration="5809000" />
     </task>
     <task id="LOCAL-00001" summary="Creando el repositorio">
       <option name="closed" value="true" />
@@ -128,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720446729073</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Try catch Añadido">
+      <option name="closed" value="true" />
+      <created>1720844970438</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720844970438</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +159,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Creando el repositorio" />
     <MESSAGE value="Programa en funcionamiento" />
-    <option name="LAST_COMMIT_MESSAGE" value="Programa en funcionamiento" />
+    <MESSAGE value="Try catch Añadido" />
+    <option name="LAST_COMMIT_MESSAGE" value="Try catch Añadido" />
   </component>
 </project>

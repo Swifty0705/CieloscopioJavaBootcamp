@@ -16,7 +16,7 @@ public class ApiController {
     String link;
 
     public GeoOpenWeather conectarApiGeo(String ciudad) throws IOException, InterruptedException {
-        link = "http://api.openweathermap.org/geo/1.0/direct?q=" + ciudad + "&limit=1&appid=" + keyID;
+        link = "http://api.openweathermap.org/geo/1.0/direct?q=" + ciudad.replace(" ","+") + "&limit=1&appid=" + keyID;
 
         Gson gson = new GsonBuilder()
                 .setPrettyPrinting()
@@ -24,6 +24,7 @@ public class ApiController {
 
             GeoOpenWeather[] cities = gson.fromJson(Conection(link), GeoOpenWeather[].class);
             GeoOpenWeather miCity = cities[0];
+            //GeoOpenWeather miCity = gson.fromJson(Conection(link), GeoOpenWeather.class);
             return miCity;
     }
 
