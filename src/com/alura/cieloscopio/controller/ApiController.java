@@ -22,9 +22,9 @@ public class ApiController {
                 .setPrettyPrinting()
                 .create();
 
-        GeoOpenWeather[] cities = gson.fromJson(Conection(link), GeoOpenWeather[].class);
-        GeoOpenWeather miCity = cities[0];
-        return miCity;
+            GeoOpenWeather[] cities = gson.fromJson(Conection(link), GeoOpenWeather[].class);
+            GeoOpenWeather miCity = cities[0];
+            return miCity;
     }
 
     public WeatherOpenWeather conectarApiWeather(double lon, double lat) throws IOException, InterruptedException {

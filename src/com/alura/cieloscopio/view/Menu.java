@@ -29,18 +29,27 @@ public class Menu {
                 case 1:
                     System.out.println("Digite la ciudad:");
                     String ciudad = sc.next();
-                    ciudades.add(ciudad);
-                    System.out.println(dataWeather.showData(ciudad));
+                    try {
+                        System.out.println(dataWeather.showData(ciudad));
+                        ciudades.add(ciudad);
+                    } catch (IllegalArgumentException e) {
+                        System.out.println("\n\nDatos de la ciudad\nCiudad: No encontrada \n\nMotivo:\nSe uso un caracter incorrecto\n\n");
+                    } catch (ArrayIndexOutOfBoundsException e) {
+                        System.out.println("\n\nDatos de la ciudad\nCiudad: No encontrada \n\nMotivo:\nNo se encontró la información\n\n");
+                    }
                     break;
                 case 2:
                     System.out.println("Seleccione una ciudad del historial:");
                     for (int i = 0; i < ciudades.size(); i++) {
-                        System.out.println((i+1)+". "+ciudades.get(i));
+                        System.out.println((i + 1) + ". " + ciudades.get(i));
                     }
                     int eleccion = sc.nextInt();
-
-                    System.out.println(dataWeather.showData(ciudades.get(eleccion-1)));
-
+                    try {
+                        System.out.println(dataWeather.showData(ciudades.get(eleccion - 1)));
+                    }
+                    catch (IndexOutOfBoundsException e) {
+                        System.out.println("Seleccione una ciudad del historial de manera correcta\n\n");
+                    }
                     break;
                 case 3:
                     System.out.println("Gracias por usar la aplicación");
@@ -48,7 +57,7 @@ public class Menu {
                 default:
                     System.out.println("Seleccione una opción valida");
             }
-        }while(response != 3);
+        } while (response != 3);
     }
 
 }

@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1257b669-a7cd-4f06-9e91-0f20c01f55f9" name="Changes" comment="Programa en funcionamiento">
-      <change afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/view/DataWeather.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/alura/cieloscopio/controller/ApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/controller/ApiController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/WeatherOpenWeather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/model/currentweather/WeatherOpenWeather.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/alura/cieloscopio/view/DataWeather.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/view/DataWeather.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/alura/cieloscopio/view/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/alura/cieloscopio/view/Menu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -111,6 +110,7 @@
       <workItem from="1720453416333" duration="2442000" />
       <workItem from="1720628420598" duration="983000" />
       <workItem from="1720635815283" duration="1820000" />
+      <workItem from="1720833981211" duration="4648000" />
     </task>
     <task id="LOCAL-00001" summary="Creando el repositorio">
       <option name="closed" value="true" />
