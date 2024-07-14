@@ -15,6 +15,14 @@
 
 ## Información extra 📁
 
+### Screenshots 📷
+![image](https://github.com/user-attachments/assets/2785c4c4-1d1c-46aa-b140-7c5304f98517) <br>
+![image](https://github.com/user-attachments/assets/dd114787-9640-496c-934b-a4f01acd48c4) <br>
+![image](https://github.com/user-attachments/assets/5285411a-18be-47b8-a617-232b2a53570a) <br>
+![image](https://github.com/user-attachments/assets/a99fb144-38f6-4f34-974e-6919e4b1cf3d) <br>
+
+
+
 ### Autor 👨🏻‍💻
 - Andres Santiago Zamudio Hernandez
 ### Organizado por 🌁
