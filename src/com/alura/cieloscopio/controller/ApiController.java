@@ -12,7 +12,7 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 
 public class ApiController {
-    String keyID = "2e426faad012ae9e555def6ed9259a9b";
+    String keyID = System.getenv("APIKEY_OPENWEATHER");
     String link;
 
     public GeoOpenWeather conectarApiGeo(String ciudad) throws IOException, InterruptedException {
